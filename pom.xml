@@ -13,6 +13,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>book-library</name>
     <description>book-library</description>
+    <packaging>jar</packaging>
+
     <properties>
         <java.version>17</java.version>
         <maven.compiler.source>19</maven.compiler.source>
