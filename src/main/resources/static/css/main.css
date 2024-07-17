@@ -1,0 +1,64 @@
+.my-title {
+    font-family: "Alfa Slab One";
+    color: #ffffff;
+}
+
+.my-text {
+    font-family: "Arial Medium";
+    color: #ffffff;
+}
+
+.my-form {
+    background-color: #c3824c;
+    color: #ffffff;
+}
+.my-form::placeholder {
+    color: #20f039;
+}
+.my-form:focus {
+    box-shadow: none;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.my-btn {
+    background-color: #ffffff;
+}
+
+.my-active {
+    background-color: #ffffff;
+    color: #0e0e0e;
+}
+.my-active:hover {
+    color: #ffffff;
+}
+
+.my-card {
+    background: none;
+    border-color: #ffffff;
+    border-width: 1px;
+}
+
+.label-small {
+   transform: scale(0.5);
+}
+
+.my-link {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.my-link:hover {
+    text-decoration: underline;
+    color: #20f039;
+}
+
+.my-list {
+    background-color: #0e0e0e;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color-scheme: dark;
+}
